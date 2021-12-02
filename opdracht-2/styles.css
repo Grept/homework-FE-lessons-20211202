@@ -3,27 +3,27 @@
 ========================================================= */
 
 /* Schrijf hier  jouw CSS! */
-/*2.1*/
+            /*2.1*/
 .one{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
 }
 
-/*2.2*/
+            /*2.2*/
 .two{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-/*!*2.3*!     ???*/
+            /*2.3*/
 .three{
-    background-color: mediumslateblue;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    /*background-color: mediumslateblue;*/
 }
 
 ul{
@@ -36,27 +36,35 @@ ul{
     /*background-color: red;*/
 }
 
-.three > div{
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    /*background-color: green;*/
+/*.three > div{*/
+/*    !*background-color: green;*!*/
 
-}
+/*}*/
 
-/*2.4*/
+            /*2.4*/
 form{
-    /*background-color: mediumslateblue;*/
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /*background-color: mediumslateblue;*/
 ;
 }
 
-label{
-    background-color: red;
+/*label{*/
+/*    !*background-color: red;*!*/
+/*}*/
+
+            /*2.5*/
+.five{
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /*flex-wrap: wrap;*/
+    flex-basis: 1200px;
 }
 
-/*2.5*/
-
+.five article{
+    flex-shrink: 1;
+}
