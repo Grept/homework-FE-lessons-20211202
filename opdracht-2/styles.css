@@ -23,6 +23,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+
     /*background-color: mediumslateblue;*/
 }
 
@@ -33,6 +34,7 @@ ul{
     flex-direction: row;
     flex-basis: 300px;
     justify-content: space-between;
+
     /*background-color: red;*/
 }
 
@@ -42,6 +44,7 @@ form{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
     /*background-color: mediumslateblue;*/
 }
 
