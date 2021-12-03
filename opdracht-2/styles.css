@@ -36,11 +36,6 @@ ul{
     /*background-color: red;*/
 }
 
-/*.three > div{*/
-/*    !*background-color: green;*!*/
-
-/*}*/
-
             /*2.4*/
 form{
     display: flex;
@@ -48,23 +43,20 @@ form{
     justify-content: center;
     align-items: center;
     /*background-color: mediumslateblue;*/
-;
 }
-
-/*label{*/
-/*    !*background-color: red;*!*/
-/*}*/
 
             /*2.5*/
 .five{
-    background-color: yellow;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
-    /*flex-wrap: wrap;*/
-    flex-basis: 1200px;
+
+    /*background-color: yellow;*/
+
 }
 
 .five article{
-    flex-shrink: 1;
+    flex-basis: 200px;
+    flex-grow: 1;
 }
