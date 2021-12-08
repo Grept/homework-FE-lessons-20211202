@@ -10,12 +10,14 @@
     justify-content: flex-end;
 }
 
+
             /*2.2*/
 .two{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
+
 
             /*2.3*/
 .three{
@@ -27,7 +29,7 @@
     /*background-color: mediumslateblue;*/
 }
 
-ul{
+.three ul{
     list-style: none;
 
     display: flex;
@@ -38,7 +40,14 @@ ul{
     /*background-color: red;*/
 }
 
+
             /*2.4*/
+.form-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 form{
     display: flex;
     flex-direction: column;
@@ -47,6 +56,7 @@ form{
 
     /*background-color: mediumslateblue;*/
 }
+
 
             /*2.5*/
 .five{

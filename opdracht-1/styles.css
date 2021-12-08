@@ -15,7 +15,7 @@ body {
 
 
 /* 1.2 Verander de kleur van alle list items in de unordered list naar hsl(110, 29%, 52%) */
-ul{
+ul li{
     color: hsl(110, 29%, 52%);
 }
 
@@ -37,16 +37,18 @@ nav a:link{
 
 nav a:hover{
     color: green;
+    cursor: pointer;
 }
 
 
 /* 1.5 Maak een hover- en visited stijl voor alle links in 'main'. */
 main a:hover{
-    color: green;
+    color: coral;
+    cursor: pointer;
 }
 
 main a:visited{
-    color: mediumslateblue;
+    color: brown;
 }
 
 
@@ -59,8 +61,7 @@ input[value="Signup"]{
 /* Geef het tekst-veld een blauwe rand wanneer hij in focus is */
     /*Doet hij al?*/
 input[type="text"]:focus{
-    outline: #FFFFFF;
-    border-color: red;
+    outline: groove cornflowerblue;
 }
 
 /* Target alle heading tags op de pagina en zet hun font-family op 'Noto Sans JP', sans-serif */
